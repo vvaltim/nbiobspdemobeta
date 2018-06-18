@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_add_fir"
+        android:title="AddFIR"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_action_user_add"
+        />
+    <item android:id="@+id/menu_identify"
+        android:title="Identify"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_action_search"
+        />
+    <item android:id="@+id/menu_remove"
+        android:title="RemoveUser"
+        android:orderInCategory="300"
+        android:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_action_delete"
+        />
+
+</menu>
